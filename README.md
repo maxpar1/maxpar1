@@ -1,6 +1,6 @@
 # Hi, I'm Max 👋
 
-I build AI infrastructure — fine-tuned models, inference systems, and the plumbing that makes them actually work in production.
+I build AI infrastructure; fine-tuned models, inference systems, and the plumbing that makes them actually work in production.
 
 I'm most interested in the parts most people skip: converting a model to run on-device, debugging why a GPU kernel OOMs at batch 8 but not 7, making a RAG system that doesn't hallucinate. The stuff where there's no Stack Overflow answer and AI tools go in circles trying to figure out.
 
