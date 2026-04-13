@@ -6,17 +6,17 @@ I'm most interested in the parts most people skip: converting a model to run on-
 
 ## What I'm building
 
-### 🧠 [Palimo](https://palimo.dev) — Memory-as-a-Service
+### 🧠 [Palimo](https://palimo.dev) - Memory-as-a-Service
 A live product. Gives LLM apps structured memory without sending data to OpenAI/Anthropic. Fine-tuned a 4B Gemma model (LoRA) to run memory operations locally via llama.cpp. Multi-tenant SaaS architecture: per-user SQLite isolation, hybrid retrieval (embeddings + entity graph), async commit pipeline. Running in private beta.
 
 `Python · FastAPI · llama.cpp · LoRA fine-tuning · GGUF quantization`
 
-### 🔍 [Iris](https://github.com/maxpar1/iris-project) — Natural Language → SQL
+### 🔍 [Iris](https://github.com/maxpar1/iris-project) - Natural Language → SQL
 A conversational NL2SQL system that handles real databases. 5-table JOINs across Pagila work on the first try. Two-pass retrieval: embedding-based table ranking with FK graph expansion, then a 20B MLX model generates the SQL. Validation loop repairs bad queries using AST analysis (sqlglot). Intent router decides between SQL, chat, and preference updates.
 
 `Python · MLX · Qwen3-Embedding · sqlglot · PostgreSQL`
 
-### 🎙️ [Voice Assistant](https://github.com/maxpar1/voice-assistant) — On-device Voice AI
+### 🎙️ [Voice Assistant](https://github.com/maxpar1/voice-assistant) - On-device Voice AI
 iOS app where speech never leaves the phone. Spent a week getting Kokoro-82M to run on CoreML — split the bidirectional LSTMs (pack_padded_sequence isn't traceable), fixed the iSTFT reconstruction, replaced `torch.randn` with Box-Muller noise for determinism. Ships with correlation 0.9826 vs the original PyTorch output. Backend runs a 20B LLM on my Mac, iPhone does TTS + ASR locally.
 
 `Swift · CoreML · Python · WebSocket · Kokoro-82M · JWT (hand-rolled)`
