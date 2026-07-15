@@ -35,11 +35,8 @@ iOS app where speech never leaves the phone. Spent a week getting Kokoro-82M to 
 
 CS degree from Suffolk University (2024). Before graduating I was the software engineer at a 2-person NYC startup (WADL) — built the full AWS stack, launched a commercial AI product, wired up real-time iOS voice over WebRTC. Before that, AI Gulf Coast — AWS training infrastructure and APIs handling 100K+ writes/day.
 
-Now I'm building Palimo and looking for ML engineer / AI infrastructure / founding engineer roles. Based in Boston.
+
 
 ## If you want to talk
 
 📧 maxparsons321@gmail.com
-🌐 [palimo.dev](https://palimo.dev)
-
-I'm happy to do a 15-min call about anything on this page. I'm especially interested in companies doing on-device AI, local LLM deployment, memory systems for agents, or anything in the "make models actually run in production" space.
